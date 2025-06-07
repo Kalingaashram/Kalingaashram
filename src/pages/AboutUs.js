@@ -3,7 +3,7 @@ import aboutImage from '../assets/images/WhatsApp Image 2025-06-04 at 19.23.39_e
 
 function AboutUs() {
   return (
-    <div style={{ maxWidth: '900px', margin: '40px auto', fontFamily: 'Arial, sans-serif' }}>
+    <div style={{ maxWidth: '900px', margin: '40px auto' }}>
       <h2 style={{ color: '#d87d0a', fontWeight: 'bold', marginBottom: '20px' }}>ABOUT US</h2>
       <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
         <div style={{ flex: 1, fontSize: '14px', lineHeight: '1.6', textAlign: 'left' }}>

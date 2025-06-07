@@ -3,7 +3,7 @@ import naturalFarmingImage from '../assets/images/natural-farming.jpg';
 
 function NaturalFarming() {
   return (
-    <div style={{ maxWidth: '900px', margin: '40px auto', fontFamily: 'Arial, sans-serif', padding: '20px' }}>
+    <div style={{ maxWidth: '900px', margin: '40px auto', padding: '20px' }}>
       <h1 style={{ color: '#d87d0a', fontWeight: 'bold', marginBottom: '20px' }}>Natural Farming</h1>
       <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
         <div style={{ flex: 1, fontSize: '14px', lineHeight: '1.6', textAlign: 'left' }}>

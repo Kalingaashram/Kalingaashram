@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
@@ -14,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/">
       <Header />
       <div className="App" style={{ minHeight: '80vh' }}>
         <Routes>
@@ -29,7 +29,8 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </Router>
+    </BrowserRouter>
+
   );
 }
 

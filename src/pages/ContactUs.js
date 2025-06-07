@@ -26,7 +26,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div style={{ maxWidth: '900px', margin: '40px auto', fontFamily: 'Arial, sans-serif' }}>
+    <div style={{ maxWidth: '900px', margin: '40px auto' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '30px', fontWeight: 'bold' }}>
         <span style={{ color: '#d87d0a' }}>CONTACT </span>US
       </h1>
