@@ -18,6 +18,7 @@ function App() {
       <Header />
       <div className="App" style={{ minHeight: '80vh' }}>
         <Routes>
+          <Route index element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<ContactUs />} />
