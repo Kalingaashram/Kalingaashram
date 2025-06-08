@@ -20,6 +20,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import logo from './../assets/images/logo.png';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import './../assets/css/Header.css'
+import './../assets/css/Common.css'
 
 const navItems = [
   { label: 'Home', path: '/' },
@@ -131,9 +133,9 @@ function Header() {
   );
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ backgroundColor: '#fff', color: '#d2691e' }}>
-        <Toolbar>
+    <Box className="header-root">
+      <AppBar position="static" className="header-appbar">
+        <Toolbar className="header-toolbar container">
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -143,18 +145,18 @@ function Header() {
           >
             <MenuIcon />
           </IconButton>
-          <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
-            <img src={logo} alt="Logo" style={{ height: 50, marginRight: 10 }} />
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
+          <Box className="header-logo-container" sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
+            <img src={logo} alt="Logo" className="header-logo" />
+            <Typography variant="h6" component="div" className="header-title">
               KALINGA ASHRAM
             </Typography>
           </Box>
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 2 }}>
-            <Button component={Link} to="/" sx={{ color: '#d2691e', fontWeight: 'bold' }}>
+            <Button component={Link} to="/" className="header-button">
               Home
             </Button>
             <Button
-              sx={{ color: '#d2691e', fontWeight: 'bold' }}
+              className="header-button"
               aria-controls="about-menu"
               aria-haspopup="true"
               onClick={handleAboutMenuOpen}
@@ -175,7 +177,7 @@ function Header() {
               </MenuItem>
             </Menu>
             <Button
-              sx={{ color: '#d2691e', fontWeight: 'bold' }}
+              className="header-button"
               aria-controls="services-menu"
               aria-haspopup="true"
               onClick={handleServicesMenuOpen}
@@ -201,22 +203,22 @@ function Header() {
                 Natural Farming
               </MenuItem>
             </Menu>
-            <Button component={Link} to="/event" sx={{ color: '#d2691e', fontWeight: 'bold' }}>
+            <Button component={Link} to="/event" className="header-button">
               Event
             </Button>
-            <Button component={Link} to="/contact" sx={{ color: '#d2691e', fontWeight: 'bold' }}>
+            <Button component={Link} to="/contact" className="header-button">
               Contact Us
             </Button>
-            <Button component={Link} to="/videos" sx={{ color: '#d2691e', fontWeight: 'bold' }}>
+            <Button component={Link} to="/videos" className="header-button">
               Videos
             </Button>
-            {/* <IconButton href="https://facebook.com" target="_blank" aria-label="Facebook" sx={{ color: '#d2691e' }}>
+            {/* <IconButton href="https://facebook.com" target="_blank" aria-label="Facebook" className="header-button">
               <FacebookIcon />
             </IconButton>
-            <IconButton href="https://youtube.com" target="_blank" aria-label="YouTube" sx={{ color: '#d2691e' }}>
+            <IconButton href="https://youtube.com" target="_blank" aria-label="YouTube" className="header-button">
               <YouTubeIcon />
             </IconButton> */}
-            <Button component={Link} to="/donate" variant="contained" sx={{ backgroundColor: '#d2691e', borderRadius: '20px', ml: 2 }}>
+            <Button component={Link} to="/donate" variant="contained" className="header-donate-button">
               Donate
             </Button>
           </Box>

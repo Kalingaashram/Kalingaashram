@@ -1,5 +1,4 @@
 import React from 'react';
-import aboutImage from '../assets/images/WhatsApp Image 2025-06-04 at 19.23.39_eb1bd95c.jpg';
 
 function AboutUs() {
   return (

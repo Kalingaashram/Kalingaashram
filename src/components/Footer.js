@@ -1,7 +1,8 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+import MuiLink from '@mui/material/Link';
+import { Link } from 'react-router-dom';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
@@ -19,7 +20,7 @@ function Footer() {
             🔗 Quick <Box component="span" sx={{ borderBottom: '2px solid #fff' }}>Links</Box>
           </Typography>
           <Box component="ul" sx={{ listStyle: 'none', p: 0 }}>
-            <li><Link href="/about" underline="none" sx={{ color: '#fff' }}>About Us</Link></li>
+            <li><MuiLink component={Link} to="/about" underline="none" sx={{ color: '#fff' }}>About Us</MuiLink></li>
           </Box>
         </Box>
         <Box sx={{ flex: '1 1 200px', m: 1 }}>
@@ -27,12 +28,12 @@ function Footer() {
             🔗 Other <Box component="span" sx={{ borderBottom: '2px solid #fff' }}>Links</Box>
           </Typography>
           <Box component="ul" sx={{ listStyle: 'none', p: 0 }}>
-            <li><Link href="/natural-farming" underline="none" sx={{ color: '#fff' }}>Natural Farming</Link></li>
-            <li><Link href="/events" underline="none" sx={{ color: '#fff' }}>Sewa Work</Link></li>
-            <li><Link href="/donate" underline="none" sx={{ color: '#fff' }}>Donate</Link></li>
-            <li><Link href="/privacy-policy" underline="none" sx={{ color: '#fff' }}>Privacy Policy</Link></li>
-            <li><Link href="/terms-of-use" underline="none" sx={{ color: '#fff' }}>Terms of Use</Link></li>
-            <li><Link href="/contact" underline="none" sx={{ color: '#fff' }}>Contact Us</Link></li>
+            <li><MuiLink component={Link} to="/natural-farming" underline="none" sx={{ color: '#fff' }}>Natural Farming</MuiLink></li>
+            <li><MuiLink component={Link} to="/events" underline="none" sx={{ color: '#fff' }}>Sewa Work</MuiLink></li>
+            <li><MuiLink component={Link} to="/donate" underline="none" sx={{ color: '#fff' }}>Donate</MuiLink></li>
+            <li><MuiLink component={Link} to="/privacy-policy" underline="none" sx={{ color: '#fff' }}>Privacy Policy</MuiLink></li>
+            <li><MuiLink component={Link} to="/terms-of-use" underline="none" sx={{ color: '#fff' }}>Terms of Use</MuiLink></li>
+            <li><MuiLink component={Link} to="/contact" underline="none" sx={{ color: '#fff' }}>Contact Us</MuiLink></li>
           </Box>
         </Box>
         <Box sx={{ flex: '1 1 200px', m: 1 }}>
@@ -42,7 +43,7 @@ function Footer() {
           <Typography component="address" sx={{ fontStyle: 'normal' }}>
             <strong>Kalinga Ashram</strong><br />
             Amania pada, Post- Kankia, Tamana, Tikit road, pin- 761008<br />
-            <span>✉️ <Link href="mailto:kalingashram.1999@gmail.com" sx={{ color: '#fff' }}>kalingashram.1999@gmail.com</Link></span><br />
+            <span>✉️ <MuiLink href="mailto:kalingashram.1999@gmail.com" sx={{ color: '#fff' }}>kalingashram.1999@gmail.com</MuiLink></span><br />
           </Typography>
         </Box>
         <Box sx={{ flex: '1 1 200px', m: 1 }}>
