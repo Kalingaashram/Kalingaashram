@@ -1,31 +1,44 @@
 {
   "files": {
-    "main.css": "./static/css/main.4ac1e8f0.css",
-    "main.js": "./static/js/main.8e1297f8.js",
-    "static/js/453.ddece22e.chunk.js": "./static/js/453.ddece22e.chunk.js",
+    "main.css": "./static/css/main.17463d9b.css",
+    "main.js": "./static/js/main.47125fe4.js",
+    "static/js/453.df49ab3a.chunk.js": "./static/js/453.df49ab3a.chunk.js",
     "static/media/logo.png": "./static/media/logo.9151d4d7d10dfc6b6324.png",
+    "static/media/event9.jpg": "./static/media/event9.96d3676784ec90e709bb.jpg",
+    "static/media/event13.jpg": "./static/media/event13.c35714ba1ccf684a0e5f.jpg",
     "static/media/4.jpg": "./static/media/4.0743d2589c2904112a00.jpg",
     "static/media/1.jpg": "./static/media/1.84f590478f9616c5e0f5.jpg",
     "static/media/natural-farming.jpg": "./static/media/natural-farming.85feddc5b3842002a58f.jpg",
     "static/media/mud-therapy.jpg": "./static/media/mud-therapy.e0847628e6392890c405.jpg",
     "static/media/3.jpg": "./static/media/3.8ab0fcd1d54df0ec3d5c.jpg",
+    "static/media/event12.jpg": "./static/media/event12.7c81f29d497954388051.jpg",
+    "static/media/event14.jpg": "./static/media/event14.7c81f29d497954388051.jpg",
     "static/media/2.jpg": "./static/media/2.eb8d8a2d86c09265abdf.jpg",
     "static/media/event1.jpg": "./static/media/event1.eb8d8a2d86c09265abdf.jpg",
+    "static/media/event17.jpg": "./static/media/event17.eb8d8a2d86c09265abdf.jpg",
+    "static/media/event15.jpg": "./static/media/event15.5c85d1fb939234dd8eb1.jpg",
+    "static/media/event8.jpg": "./static/media/event8.7082f0503ea38e100297.jpg",
+    "static/media/event10.jpg": "./static/media/event10.ee5406c08f1e870b527f.jpg",
     "static/media/event2.jpg": "./static/media/event2.6dbe4c68568c802e43a3.jpg",
+    "static/media/event4.jpg": "./static/media/event4.5d4c66ba58a83650d2a2.jpg",
     "static/media/advisory-team.jpg": "./static/media/advisory-team.08d2c5f88376fc4ec087.jpg",
     "static/media/event3.jpg": "./static/media/event3.5b47da73ac86e9c25e44.jpg",
-    "static/media/WhatsApp Image 2025-06-04 at 19.23.39_eb1bd95c.jpg": "./static/media/WhatsApp Image 2025-06-04 at 19.23.39_eb1bd95c.8491dfa6d05074bb1dd5.jpg",
+    "static/media/event7.jpg": "./static/media/event7.8e447eda33c69631fcf2.jpg",
+    "static/media/event11.jpg": "./static/media/event11.a31323edb84009cd5491.jpg",
+    "static/media/event16.jpg": "./static/media/event16.c36dd468b87bee1f0765.jpg",
+    "static/media/event6.jpg": "./static/media/event6.8491dfa6d05074bb1dd5.jpg",
+    "static/media/om.png": "./static/media/om.7ea82735436263471251.png",
     "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.4ac1e8f0.css.map": "./static/css/main.4ac1e8f0.css.map",
-    "main.8e1297f8.js.map": "./static/js/main.8e1297f8.js.map",
-    "453.ddece22e.chunk.js.map": "./static/js/453.ddece22e.chunk.js.map"
+    "main.17463d9b.css.map": "./static/css/main.17463d9b.css.map",
+    "main.47125fe4.js.map": "./static/js/main.47125fe4.js.map",
+    "453.df49ab3a.chunk.js.map": "./static/js/453.df49ab3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac1e8f0.css",
-    "static/js/main.8e1297f8.js"
+    "static/css/main.17463d9b.css",
+    "static/js/main.47125fe4.js"
   ]
 }
