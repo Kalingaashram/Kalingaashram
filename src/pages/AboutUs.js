@@ -1,11 +1,12 @@
 import React from 'react';
+import './../assets/css/Common.css';
 
 function AboutUs() {
   return (
-    <div style={{ maxWidth: '900px', margin: '40px auto' }}>
-      <h2 style={{ color: '#d87d0a', fontWeight: 'bold', marginBottom: '20px' }}>ABOUT US</h2>
-      <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
-        <div style={{ flex: 1, fontSize: '14px', lineHeight: '1.6', textAlign: 'left' }}>
+    <div className='container page-container'>
+      <div>
+        <div style={{ flex: 1 }}>
+          <h2 className='page-title'>ABOUT US</h2>
           <p>
             Welcome to Kalinga Ashram, a serene sanctuary nestled in nature's embrace, where the journey of self-discovery and inner peace begins. Our ashram offers a tranquil space for individuals seeking mindfulness, healing, and spiritual growth through time-honored practices.
           </p>

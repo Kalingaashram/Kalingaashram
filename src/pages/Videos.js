@@ -1,4 +1,5 @@
 import React from 'react';
+import './../assets/css/Common.css';
 
 const videoLinks = [
   'https://www.youtube.com/embed/O0MfEm-4pBM',
@@ -14,7 +15,7 @@ const videoLinks = [
 
 const Videos = () => {
   return (
-    <div style={{ padding: '20px' }}>
+    <div className='contanier'>
       <h2>Videos</h2>
       <div
         style={{

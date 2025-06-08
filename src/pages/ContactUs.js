@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './../assets/css/Common.css';
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -26,8 +27,8 @@ const ContactUs = () => {
   };
 
   return (
-    <div style={{ maxWidth: '900px', margin: '40px auto' }}>
-      <h1 style={{ textAlign: 'center', marginBottom: '30px', fontWeight: 'bold' }}>
+    <div className='container'>
+      <h1 style={{ marginBottom: '30px', fontWeight: 'bold' }}>
         <span style={{ color: '#d87d0a' }}>CONTACT </span>US
       </h1>
       <div style={{
@@ -55,7 +56,7 @@ const ContactUs = () => {
             <li style={{ marginBottom: '10px' }}>
               <span role="img" aria-label="location" style={{ color: '#d87d0a', marginRight: '8px' }}>📍</span> Kalinga Ashram<br />
               Village- Amania pada, <br />
-              Near - Tamana, Tikit road, <br></br>
+              Near - Tamana Chikiti Road, <br></br>
               Post- Kankia,<br></br>
               Dist - Ganjam,<br></br>
               pin- 761008<br />

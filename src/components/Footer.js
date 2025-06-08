@@ -21,6 +21,9 @@ function Footer() {
           </Typography>
           <Box component="ul" sx={{ listStyle: 'none', p: 0 }}>
             <li><MuiLink component={Link} to="/about" underline="none" sx={{ color: '#fff' }}>About Us</MuiLink></li>
+            <li><MuiLink component={Link} to="/mudtherapy" underline="none" sx={{ color: '#fff' }}>Mud Therapy</MuiLink></li>
+            <li><MuiLink component={Link} to="/natural-farming" underline="none" sx={{ color: '#fff' }}>Natural Farming</MuiLink></li>
+            <li><MuiLink component={Link} to="/education" underline="none" sx={{ color: '#fff' }}>Education</MuiLink></li>
           </Box>
         </Box>
         <Box sx={{ flex: '1 1 200px', m: 1 }}>
@@ -42,7 +45,7 @@ function Footer() {
           </Typography>
           <Typography component="address" sx={{ fontStyle: 'normal' }}>
             <strong>Kalinga Ashram</strong><br />
-            Amania pada, Post- Kankia, Tamana, Tikit road, pin- 761008<br />
+            Amania pada, Post- Kankia, Tamana Chikiti Road,Dist- Ganjam, pin- 761008<br />
             <span>✉️ <MuiLink href="mailto:kalingashram.1999@gmail.com" sx={{ color: '#fff' }}>kalingashram.1999@gmail.com</MuiLink></span><br />
           </Typography>
         </Box>

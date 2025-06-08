@@ -1,12 +1,12 @@
 import React from 'react';
-import naturalFarmingImage from '../assets/images/natural-farming.jpg';
+import naturalFarmingImage from '../assets/images/services/natural-farming.jpg';
 
 function NaturalFarming() {
   return (
-    <div style={{ maxWidth: '900px', margin: '40px auto', padding: '20px' }}>
-      <h1 style={{ color: '#d87d0a', fontWeight: 'bold', marginBottom: '20px' }}>Natural Farming</h1>
+    <div className='container page-container'>
       <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
-        <div style={{ flex: 1, fontSize: '14px', lineHeight: '1.6', textAlign: 'left' }}>
+        <div style={{ flex: 1 }}>
+          <h1 style={{ color: '#d87d0a', fontWeight: 'bold', marginBottom: '20px' }}>Natural Farming</h1>
           <p>
             Natural Farming is more than just a method—it's a way of living in harmony with nature. At Kalinga Ashram, we practice and promote natural farming as a sustainable, eco-friendly approach that nurtures the earth, respects biodiversity, and supports healthy living.
           </p>
