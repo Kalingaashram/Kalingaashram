@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.17463d9b.css",
-    "main.js": "./static/js/main.47125fe4.js",
+    "main.css": "./static/css/main.5bf84373.css",
+    "main.js": "./static/js/main.c0c01675.js",
     "static/js/453.df49ab3a.chunk.js": "./static/js/453.df49ab3a.chunk.js",
     "static/media/logo.png": "./static/media/logo.9151d4d7d10dfc6b6324.png",
     "static/media/event9.jpg": "./static/media/event9.96d3676784ec90e709bb.jpg",
@@ -21,6 +21,7 @@
     "static/media/event10.jpg": "./static/media/event10.ee5406c08f1e870b527f.jpg",
     "static/media/event2.jpg": "./static/media/event2.6dbe4c68568c802e43a3.jpg",
     "static/media/event4.jpg": "./static/media/event4.5d4c66ba58a83650d2a2.jpg",
+    "static/media/education.jpg": "./static/media/education.69f7e8b44d572e66dde8.jpg",
     "static/media/advisory-team.jpg": "./static/media/advisory-team.08d2c5f88376fc4ec087.jpg",
     "static/media/event3.jpg": "./static/media/event3.5b47da73ac86e9c25e44.jpg",
     "static/media/event7.jpg": "./static/media/event7.8e447eda33c69631fcf2.jpg",
@@ -33,12 +34,12 @@
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.17463d9b.css.map": "./static/css/main.17463d9b.css.map",
-    "main.47125fe4.js.map": "./static/js/main.47125fe4.js.map",
+    "main.5bf84373.css.map": "./static/css/main.5bf84373.css.map",
+    "main.c0c01675.js.map": "./static/js/main.c0c01675.js.map",
     "453.df49ab3a.chunk.js.map": "./static/js/453.df49ab3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17463d9b.css",
-    "static/js/main.47125fe4.js"
+    "static/css/main.5bf84373.css",
+    "static/js/main.c0c01675.js"
   ]
 }
