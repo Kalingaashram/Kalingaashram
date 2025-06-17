@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  overflow: hidden;
+  padding: 0 10px;
 }
 
 .App-logo {
@@ -34,5 +36,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.content-text-fluid{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .content-text-fluid{
+    flex-direction: column;
   }
 }

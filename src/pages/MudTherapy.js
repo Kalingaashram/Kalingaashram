@@ -5,7 +5,7 @@ import './../assets/css/Common.css';
 function MudTherapy() {
   return (
     <div className='container page-container'>
-      <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+      <div className="content-text-fluid">
         <div style={{ flex: 1}}>
           <h1 className='page-title'>Mud Therapy</h1>
           <p>

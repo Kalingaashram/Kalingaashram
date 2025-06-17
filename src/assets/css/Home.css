@@ -4,6 +4,12 @@
   max-width: 1100px;
   margin: 40px auto;
 }
+.max-width{
+   max-width: 1100px;
+  margin: 20px auto;
+  width: 100%;
+
+}
 
 .slider-image {
   width: 100%;
@@ -103,21 +109,24 @@
 @media (max-width: 600px) {
   .container {
     margin: 20px 10px;
+    /* padding: 0 12px; */
   }
 
   .flex-between-gap {
     flex-direction: column;
     gap: 15px;
+    /* padding: 0 12px; */
   }
 
   .flex-1-border-padding-center {
     border: none;
-    padding: 10px 0;
+    /* padding: 10px 0; */
   }
 
   .flex-gap-align-center {
     flex-direction: column;
     gap: 15px;
+    /* padding: 0 12px; */
   }
 
   .flex-1-text-left {

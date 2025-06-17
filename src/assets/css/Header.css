@@ -38,3 +38,9 @@ header:after {
   border-radius: 20px !important;
   margin-left: 16px !important;
 }
+.max-width{
+   max-width: 1100px;
+  margin: 20px auto;
+  width: 100%;
+
+}

@@ -125,7 +125,7 @@ function Header() {
         </IconButton>
       </Box> */}
       <Box sx={{ mt: 2 }}>
-        <Button variant="contained" sx={{ backgroundColor: '#d2691e', borderRadius: '20px' }}>
+        <Button component={Link} to="/donate" variant="contained" sx={{ backgroundColor: '#d2691e', borderRadius: '20px' }}>
           Donate
         </Button>
       </Box>
@@ -135,7 +135,7 @@ function Header() {
   return (
     <Box className="header-root">
       <AppBar position="static" className="header-appbar">
-        <Toolbar className="header-toolbar container">
+        <Toolbar className="header-toolbar max-width">
           <IconButton
             color="inherit"
             aria-label="open drawer"

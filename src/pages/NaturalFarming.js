@@ -4,7 +4,7 @@ import naturalFarmingImage from '../assets/images/services/natural-farming.jpg';
 function NaturalFarming() {
   return (
     <div className='container page-container'>
-      <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+      <div className="content-text-fluid">
         <div style={{ flex: 1 }}>
           <h1 style={{ color: '#d87d0a', fontWeight: 'bold', marginBottom: '20px' }}>Natural Farming</h1>
           <p>

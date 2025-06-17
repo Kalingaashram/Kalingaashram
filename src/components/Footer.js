@@ -32,7 +32,7 @@ function Footer() {
           </Typography>
           <Box component="ul" sx={{ listStyle: 'none', p: 0 }}>
             <li><MuiLink component={Link} to="/natural-farming" underline="none" sx={{ color: '#fff' }}>Natural Farming</MuiLink></li>
-            <li><MuiLink component={Link} to="/events" underline="none" sx={{ color: '#fff' }}>Sewa Work</MuiLink></li>
+            <li><MuiLink component={Link} to="/event" underline="none" sx={{ color: '#fff' }}>Sewa Work</MuiLink></li>
             <li><MuiLink component={Link} to="/donate" underline="none" sx={{ color: '#fff' }}>Donate</MuiLink></li>
             <li><MuiLink component={Link} to="/privacy-policy" underline="none" sx={{ color: '#fff' }}>Privacy Policy</MuiLink></li>
             <li><MuiLink component={Link} to="/terms-of-use" underline="none" sx={{ color: '#fff' }}>Terms of Use</MuiLink></li>
