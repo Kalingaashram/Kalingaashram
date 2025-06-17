@@ -31,7 +31,7 @@ const ContactUs = () => {
       <h1 style={{ marginBottom: '30px', fontWeight: 'bold' }}>
         <span style={{ color: '#d87d0a' }}>CONTACT </span>US
       </h1>
-      <div style={{
+      <div className="content-text-fluid" style={{
         display: 'flex',
         justifyContent: 'space-between',
         backgroundColor: '#fff',
